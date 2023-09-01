@@ -17,7 +17,7 @@ new_collection("Newthree")
 
 ## 2. Grow the collection
 
-Once you have a collection, it takes a life of its owm and must grow.
+Once you have a collection, it takes a life of its own and must grow.
 
 Implement `add_card`, which takes a card and a collection, and returns a tuple with two values: a `Bool` that indicates if the card was already in the collection, and the collection with the card added.
 
@@ -56,17 +56,17 @@ boring_cards([set.from_list(["Scientuna"]), set.from_list(["Newthree", "Scientun
 
 Do you and your friends collectively own all of the Blorkemon™️ cards?
 
-Implement `totalCards`, which takes a list of collections and returns the total number of different cards in all of the collections.
+Implement `total_cards`, which takes a list of collections and returns the total number of different cards in all of the collections.
 
 ```gleam
-totalCards [set.from_list(["Scientuna"]), set.from_list(["Newthree", "Scientuna"])]
+total_cards([set.from_list(["Scientuna"]), set.from_list(["Newthree", "Scientuna"])])
 // -> 2
 ```
 
 ## 6. Shiny for the win
 
 Your nephew is coming to visit you soon, and you feel like impressing him.
-Kids like shiny things right?
+Kids like shiny things, right?
 Blorkemon™️ cards can be shiny!
 
 Implement `shiny_cards`, which takes a collection and returns a set containing all the cards that start with `"Shiny "`.
